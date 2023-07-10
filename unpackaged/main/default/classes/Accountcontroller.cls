@@ -5,6 +5,7 @@ public class Accountcontroller {
     {
         List<Account> acclist = [Select Id,name from Account];
         return acclist;
+        //it return account List
         
     }
 }
